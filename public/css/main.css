@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    padding:0;
+}
+.pageHeading{
+    margin-top:5px;
+    text-align:center;
+    font-size:25px;
+    color:#1AB5ED;
+}
+.weatherGraph{
+    margin:auto;
+    text-align:center;
+    margin-top:50px;
+}
+.graph{
+    height:200px;
+    max-width:900px;
+    margin:auto;
+}
+.wheatherDetails{
+    margin-top:50px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0px 10px 0px;
+}
+.dayWeather{
+    border-left: 1px solid grey;
+    padding: 15px 10px 0px 5px;
+    margin: 0px 5px 10px 0px;
+}
+.dayWeather:first-child{
+    border-left: none;
+}
+.dayWeather h2{
+    margin:0px;
+    font-size:18px;
+}
+.dayWeather h1{
+    font-weight: bold;
+    margin:0px;
+    font-size:23px;
+    margin-top:20px;
+}
+.dayWeather p{
+    margin:0px;
+    margin-top:15px;
+    font-size:15px;
+}
+.dayWeather img{
+    margin:0px;
+    max-height:100px;
+    max-width:100px;
+    margin-top:10px;
+}
